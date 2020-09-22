@@ -1,6 +1,6 @@
 body {
     width: 850px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: 20px auto;
 }
 
@@ -27,10 +27,13 @@ body {
 }
 
 .info-block div {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 270px;
     padding-left: 30px;
     padding-top: 15px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium',  Arial, sans-serif;
 }
 
 .info-block p {
