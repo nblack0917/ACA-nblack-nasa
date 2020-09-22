@@ -76,4 +76,5 @@ h3 {
 
 .send-button:hover {
     background-color: dimgray;
+    cursor: pointer;
 }
