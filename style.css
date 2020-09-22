@@ -5,7 +5,7 @@ body {
 }
 
 .space-name {
-    background-image: url("hubbleGalaxy.jpg");
+    background-image: url("./images/hubbleStarCloud.jpg");
     display: flex;
     height: 450px;
     justify-content: center;
