@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NASA flex page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="space-name">
@@ -12,29 +13,33 @@
     <section class="info-block">
         <div>
             <h3>Social Media</h3>
-            <ul>
-                <li>Twitter - @nasa</li>
-                <li>Facebook - fb.com/nasa</li>
-                <li>Instagram - @nasa</li>
-                <li>Youtube - youtube.com/NASA</li>
-            </ul>
+            <p>
+                Twitter - @nasa<br>
+                Facebook - fb.com/nasa<br>
+                Instagram - @nasa<br>
+                Youtube - youtube.com/NASA
+            </p>
         </div>
         <div>
             <h3>OFFICE INFO</h3>
-            <ul>
-                <li>Public Communications Office</li>
-                <li>NASA Headquarters</li>
-                <li>300 E. Street SW, Suit 5R30</li>
-                <li>Washington, DC 20546</li>
-                <li>(202) 358-0001 (Office)</li>
-                <li>(202) 358-4338 (Fax)</li>
-            </ul>
+            <p>
+                Public Communications Office<br>
+                NASA Headquarters<br>
+                300 E. Street SW, Suit 5R30<br>
+                Washington, DC 20546<br>
+                (202) 358-0001 (Office)<br>
+                (202) 358-4338 (Fax)
+            </p>
         </div>
         <div class='contact'>
             <h3>CONTACT US</h3>
-            <p>Name</p>
-            <p>Message</p>
-            <button>send</button>
+            <form action="/action_page.php">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="message" rows="3">Message</label><br>
+                <textarea type="text" id="message" name="message"></textarea><br><br>
+            </form>
+            <button class="send-button">send</button>
             
         </div>
     </section>
